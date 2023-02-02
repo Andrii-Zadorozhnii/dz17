@@ -1,0 +1,61 @@
+@use "var";
+@use "preparedCode";
+
+.main__cards{
+    @extend %displayFlexCenterWrap;
+    margin: 0 auto;
+}
+
+.card:not(:hover){
+    opacity: .8;
+}
+
+.card:hover{
+    @extend %cardHover;
+}
+
+.card{
+    max-width: 340px;
+    width: 100%;
+    max-height: 370px;
+    height: 100%;
+    @extend %cardBorder;
+    padding: var.$cardPadding;
+    margin: 0 auto;
+
+    &__icon{
+        width: 64px;
+        height: 64px;
+        @extend %cardBorder;
+        margin-bottom: var.$cardIconMargin;
+
+        &--item {
+            position: relative;
+            top: 14px;
+            left: 14px;
+            width: 36px;
+            height: 36px;
+            margin: 0 auto; 
+        }
+        
+    }
+    
+    
+    &__name{
+        margin-bottom: var.$cardNameMargin;
+    }
+    &__context{
+        margin-bottom: var.$cardContextMargin;
+    }
+    &__link a:link, a:visited {
+        font: var.$linkStyle;
+        color: var.$linkColor;
+    }
+}
+
+.card:hover .card__icon{
+    @extend %cardHover;
+}
+
+
+

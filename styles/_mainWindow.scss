@@ -1,0 +1,6 @@
+@use "var";
+@use "preparedCode";
+
+body{
+    background: var.$mainWindow-bg;
+}

@@ -1,0 +1,22 @@
+@use "var";
+
+%displayFlexCenterWrap{
+    display: flex;
+    flex-direction: row;
+    max-width: 1170px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+%cardHover{
+    border-color: var.$cardBorderHover;
+    transition: .7s all;
+    transform: scale(1.1);
+}
+
+%cardBorder{
+    border: var.$cardBorderStyle;
+    border-radius: var.$cardBorderRad;
+}

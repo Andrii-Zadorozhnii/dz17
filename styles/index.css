@@ -1,1 +1,196 @@
-/*# sourceMappingURL=index.css.map */
+.footer__social--links, .main__cards {
+  display: flex;
+  flex-direction: row;
+  max-width: 1170px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.link:hover, .card:hover .card__icon, .card:hover {
+  border-color: #3DB370;
+  transition: 0.7s all;
+  transform: scale(1.1);
+}
+
+.link, .card__icon, .card {
+  border: 1px solid #E5EAF4;
+  border-radius: 8px;
+}
+
+body {
+  background: #fff;
+}
+
+.footer__social--links, .main__cards {
+  display: flex;
+  flex-direction: row;
+  max-width: 1170px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.link:hover, .card:hover .card__icon, .card:hover {
+  border-color: #3DB370;
+  transition: 0.7s all;
+  transform: scale(1.1);
+}
+
+.link, .card__icon, .card {
+  border: 1px solid #E5EAF4;
+  border-radius: 8px;
+}
+
+.header {
+  width: 100%;
+  max-height: 80px;
+  height: 100%;
+  padding: 22px 135px;
+  border-bottom: 1px solid #EFEEF3;
+}
+
+.footer__social--links, .main__cards {
+  display: flex;
+  flex-direction: row;
+  max-width: 1170px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.link:hover, .card:hover .card__icon, .card:hover {
+  border-color: #3DB370;
+  transition: 0.7s all;
+  transform: scale(1.1);
+}
+
+.link, .card__icon, .card {
+  border: 1px solid #E5EAF4;
+  border-radius: 8px;
+}
+
+.main {
+  padding: 9.375% 10.7066%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main__subtitle {
+  font: 400 16px/21px "Roboto", sans-serif;
+  color: #7690A8;
+  margin-bottom: 1.606%;
+}
+.main__title {
+  font: 600 40px/52px "Nunito+Sans", sans-serif;
+  color: #16133D;
+  margin-bottom: 4.283%;
+}
+
+.footer__social--links, .main__cards {
+  display: flex;
+  flex-direction: row;
+  max-width: 1170px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.link:hover, .card:hover, .card:hover .card__icon {
+  border-color: #3DB370;
+  transition: 0.7s all;
+  transform: scale(1.1);
+}
+
+.link, .card, .card__icon {
+  border: 1px solid #E5EAF4;
+  border-radius: 8px;
+}
+
+.main__cards {
+  margin: 0 auto;
+}
+
+.card:not(:hover) {
+  opacity: 0.8;
+}
+
+.card {
+  max-width: 340px;
+  width: 100%;
+  max-height: 370px;
+  height: 100%;
+  padding: 3.212%;
+  margin: 0 auto;
+}
+.card__icon {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 4.283%;
+}
+.card__icon--item {
+  position: relative;
+  top: 14px;
+  left: 14px;
+  width: 36px;
+  height: 36px;
+  margin: 0 auto;
+}
+.card__name {
+  margin-bottom: 1.606%;
+}
+.card__context {
+  margin-bottom: 3.212%;
+}
+.card__link a:link, .card a:visited {
+  font: 600 16px/19px "Roboto", sans-serif;
+  color: #3DB370;
+}
+
+.main__cards, .footer__social--links {
+  display: flex;
+  flex-direction: row;
+  max-width: 1170px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.card:hover, .card:hover .card__icon, .link:hover {
+  border-color: #3DB370;
+  transition: 0.7s all;
+  transform: scale(1.1);
+}
+
+.card, .card__icon, .link {
+  border: 1px solid #E5EAF4;
+  border-radius: 8px;
+}
+
+footer {
+  max-height: 193px;
+  height: 100%;
+  padding: 40px 135px;
+  background: #16133D;
+}
+
+.footer__logo {
+  margin-bottom: 4.336%;
+}
+
+.footer__social--links {
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.link {
+  width: 38px;
+  height: 38px;
+  background: #efeef3;
+}
+.link:hover {
+  transform: scale(1.3);
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,21 @@
+@use "var";
+@use "preparedCode";
+
+
+.main{
+    padding: var.$mainPadding;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+    &__subtitle{
+        font: var.$mainTextStyleSubtitle;
+        color: var.$mainTextColorSubtitle;
+        margin-bottom: var.$mainPaddingSubtitle;
+    }
+
+    &__title{
+        font: var.$mainTextStyleTitle;
+        color: var.$mainTextColorTitle;
+        margin-bottom: var.$mainPaddingTitle;
+    }
+}

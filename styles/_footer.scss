@@ -1,0 +1,34 @@
+@use "var";
+@use "preparedCode";
+
+footer{
+    max-height: 193px;
+    height: 100%;
+    padding: 40px 135px;
+    background: var.$footerBg;
+}
+.footer__logo{
+    margin-bottom: var.$footerLogoMargin;
+}
+.footer__social{
+
+    &--links{
+        @extend %displayFlexCenterWrap;
+        
+        justify-content: flex-start;
+        gap: 10px;
+        
+    }
+}
+
+.link{
+    @extend %cardBorder;
+
+    width: 38px;
+    height: 38px;
+    background: var.$linkBg;
+    &:hover{
+        @extend %cardHover;
+        transform: scale(1.3);
+    }
+}
