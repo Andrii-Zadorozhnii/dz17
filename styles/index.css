@@ -8,7 +8,7 @@
   gap: 30px;
 }
 
-.link:hover, .card:hover .card__icon, .card:hover {
+.link:hover svg, .link:hover, .footer__social--links svg:hover, .card:hover .card__icon, .card:hover {
   border-color: #3DB370;
   transition: 0.7s all;
   transform: scale(1.1);
@@ -33,7 +33,7 @@ body {
   gap: 30px;
 }
 
-.link:hover, .card:hover .card__icon, .card:hover {
+.link:hover svg, .link:hover, .footer__social--links svg:hover, .card:hover .card__icon, .card:hover {
   border-color: #3DB370;
   transition: 0.7s all;
   transform: scale(1.1);
@@ -62,7 +62,7 @@ body {
   gap: 30px;
 }
 
-.link:hover, .card:hover .card__icon, .card:hover {
+.link:hover svg, .link:hover, .footer__social--links svg:hover, .card:hover .card__icon, .card:hover {
   border-color: #3DB370;
   transition: 0.7s all;
   transform: scale(1.1);
@@ -74,8 +74,9 @@ body {
 }
 
 .main {
-  padding: 9.375% 10.7066%;
+  padding: 7% 10.7066%;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
 }
 .main__subtitle {
   font: 400 16px/21px "Roboto", sans-serif;
@@ -98,7 +99,7 @@ body {
   gap: 30px;
 }
 
-.link:hover, .card:hover, .card:hover .card__icon {
+.link:hover svg, .link:hover, .footer__social--links svg:hover, .card:hover, .card:hover .card__icon {
   border-color: #3DB370;
   transition: 0.7s all;
   transform: scale(1.1);
@@ -111,6 +112,7 @@ body {
 
 .main__cards {
   margin: 0 auto;
+  justify-content: space-between;
 }
 
 .card:not(:hover) {
@@ -124,6 +126,34 @@ body {
   height: 100%;
   padding: 3.212%;
   margin: 0 auto;
+}
+.card:hover .color1 {
+  fill: #E1F4F5;
+  transition: 0.5s all;
+}
+.card:hover .color2 {
+  fill: #E1F4F5;
+  transition: 0.5s all;
+}
+.card:hover .color3 {
+  fill: #F4FEFF;
+  transition: 0.5s all;
+}
+.card:hover .color4 {
+  fill: #CAEFF2;
+  transition: 0.5s all;
+}
+.card:hover .color5 {
+  fill: #E1F4F5;
+  transition: 0.5s all;
+}
+.card:hover .color6 {
+  fill: #CAEFF2;
+  transition: 0.5s all;
+}
+.card:hover .color7 {
+  fill: #52C29D;
+  transition: 0.5s all;
 }
 .card__icon {
   width: 64px;
@@ -159,7 +189,7 @@ body {
   gap: 30px;
 }
 
-.card:hover, .card:hover .card__icon, .link:hover {
+.card:hover, .card:hover .card__icon, .footer__social--links svg:hover, .link:hover, .link:hover svg {
   border-color: #3DB370;
   transition: 0.7s all;
   transform: scale(1.1);
@@ -178,12 +208,22 @@ footer {
 }
 
 .footer__logo {
-  margin-bottom: 4.336%;
+  margin-bottom: 40px;
 }
 
 .footer__social--links {
   justify-content: flex-start;
   gap: 10px;
+}
+.footer__social--links svg {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  left: 7.5px;
+  top: 8px;
+}
+.footer__social--links svg:hover {
+  transform: scale(1.4);
 }
 
 .link {
@@ -193,4 +233,8 @@ footer {
 }
 .link:hover {
   transform: scale(1.3);
+}
+.link:hover svg {
+  transform: scale(1.4);
+  fill: limegreen;
 }/*# sourceMappingURL=index.css.map */

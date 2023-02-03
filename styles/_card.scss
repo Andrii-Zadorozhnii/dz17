@@ -4,6 +4,7 @@
 .main__cards{
     @extend %displayFlexCenterWrap;
     margin: 0 auto;
+    justify-content: space-between;
 }
 
 .card:not(:hover){
@@ -14,6 +15,8 @@
     @extend %cardHover;
 }
 
+
+
 .card{
     max-width: 340px;
     width: 100%;
@@ -23,6 +26,34 @@
     padding: var.$cardPadding;
     margin: 0 auto;
 
+    &:hover  .color1{
+        fill: #E1F4F5;
+        transition: 0.5s all;
+    }
+    &:hover  .color2{
+        fill: #E1F4F5;
+        transition: 0.5s all;
+    }
+    &:hover  .color3{
+        fill: #F4FEFF;
+        transition: 0.5s all;
+    }
+    &:hover  .color4{
+        fill: #CAEFF2;
+        transition: 0.5s all;
+    }
+    &:hover  .color5{
+        fill: #E1F4F5;
+        transition: 0.5s all;
+    }
+    &:hover  .color6{
+        fill: #CAEFF2;
+        transition: 0.5s all;
+    }
+    &:hover  .color7{
+        fill: #52C29D;
+        transition: 0.5s all;
+    }
     &__icon{
         width: 64px;
         height: 64px;
@@ -35,10 +66,12 @@
             left: 14px;
             width: 36px;
             height: 36px;
-            margin: 0 auto; 
+            margin: 0 auto;
+            
         }
         
     }
+    
     
     
     &__name{
